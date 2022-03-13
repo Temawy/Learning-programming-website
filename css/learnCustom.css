@@ -185,7 +185,7 @@ body {
   overflow-y:auto;
   background-color:#2941757c;
 }
-.SMC_Container ul{
+.sideMenu_items ul{
   padding: 0;
   margin: 0;
 
@@ -304,6 +304,7 @@ body {
   position:fixed;
   bottom:16px;
   right:-42px;
+  /* right:20px; */
   width: 40px;
   height: 40px;
   border: 3px solid #fff;
@@ -486,7 +487,7 @@ h1 a {
 .navBrand .logo .fa-code{
   font-size:2em;
 }
-.SMC_ContainerIcon{
+.sideMenu_item_Icon{
   color: var(--side-hover-color);
   width: 30px;
   height: 30px;
@@ -896,14 +897,21 @@ color:#fff;
   justify-content:space-around;
   align-items:center;
   background:whitesmoke;
-  box-shadow: 0 0 4px 0px #555;
+  box-shadow: 0 5px 4px 1px rgba(0, 0, 0, 0.2),
+              0 -5px 4px 1px rgba(0, 0, 0, 0.2);
   padding: 10px;
+  width: 100%;
+  border-radius:10px;
+  margin-top: 10px;
+}
+.databaseProgrammingLanguages_img a{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
 }
 .database_img{
-  display: block;
-  width: 15%;
+  width: 100%;
   height: auto;
-  cursor: pointer;
 }
 .databasePL{
   cursor: pointer;
