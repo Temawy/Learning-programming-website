@@ -142,15 +142,15 @@ $('.navLi').click(function () {
   });
 
   nav_gamesSection.click(function (){
-    $("html, body").animate({ scrollTop: 7380 });
+    $("html, body").animate({ scrollTop: 7330 });
   });
   
   nav_systemSection.click(function (){
-    $("html, body").animate({ scrollTop: 8000 });
+    $("html, body").animate({ scrollTop: 7940 });
   });
 
   nav_machineSection.click(function (){
-    $("html, body").animate({ scrollTop: 9950 });
+    $("html, body").animate({ scrollTop: 9760 });
   });
 
   $(window).scroll(function () {
@@ -195,14 +195,14 @@ $('.navLi').click(function () {
         $('.overBlack_database').css("opacity", "1");
       }
       //>>>> Database section active
-      else if (($(this).scrollTop() >= 6500) & ($(this).scrollTop() < 7300)) {
+      else if (($(this).scrollTop() >= 6500) & ($(this).scrollTop() < 7250)) {
         $('.databaseActive').addClass("activeR").siblings().removeClass("activeR");
         $('.overBlack_database').css("opacity", "0");
         $('.overBlack_database').css("z-index", "-1");
         $('.overBlack_games').css("opacity", "1");
       }
       //>>>> Games section active
-      else if (($(this).scrollTop() >= 7300) & ($(this).scrollTop() < 7920)) {
+      else if (($(this).scrollTop() >= 7250) & ($(this).scrollTop() < 7870)) {
         $('.gamesActive').addClass("activeR").siblings().removeClass("activeR");
         $('.overBlack_games').css("opacity", "0");
         $('.overBlack_games').css("z-index", "-1");
@@ -210,7 +210,7 @@ $('.navLi').click(function () {
       }
 
       //>>>> System and Network section active
-      else if (($(this).scrollTop() >= 7920) & ($(this).scrollTop() < 9875)) {
+      else if (($(this).scrollTop() >= 7870) & ($(this).scrollTop() < 9675)) {
         $('.systemActive').addClass("activeR").siblings().removeClass("activeR");
         $('.overBlack_systemAndNetwork').css("opacity", "0");
         $('.overBlack_systemAndNetwork').css("z-index", "-1");
@@ -218,7 +218,7 @@ $('.navLi').click(function () {
       }
 
       //>>>> Machine section active
-      else if (($(this).scrollTop() >= 9875)) {
+      else if (($(this).scrollTop() >= 9675)) {
         $('.machineActive').addClass("activeR").siblings().removeClass("activeR");
         $('.overBlack_machine').css("opacity", "0");
         $('.overBlack_machine').css("z-index", "-1");
