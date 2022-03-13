@@ -1,5 +1,5 @@
 $(function () {
-  let to_up = $("#toUp");
+  let to_up = $(".toUp");
   let rootColor = $(":root");
 
   let gamesCSharp = $(".g_cSharp");
@@ -121,7 +121,8 @@ $('.navLi').click(function () {
 
   // ================================================= Start Back up to top button Section ================================================= //
   // to_up.click(function () {
-  //   $("html, body").animate({ scrollTop: 0 });
+  //   // $("html, body").animate({ scrollTop: 0 });
+  //   alert('ji');
   // });
 
   nav_webSection.click(function (){
